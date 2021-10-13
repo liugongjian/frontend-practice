@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .grid {
+      display: table;/*表格布局*/
+      border-spacing: 4px;/*单元格间距4px*/
+    }
+    .row {
+        display: table-row;/*表格th布局*/
+    }
+    .image {
+        display: table-cell;/*表格td布局*/
+        width: 240px;
+        background-color: #000;
+        border: 8px solid #000;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .image p {
+        color: #fff;
+        font-size: 85%;
+        text-align: left;
+        padding-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class='grid'>
+    <div class='row'>
+        <div class='image'>
+          <img src="http://www.vanseodesign.com/blog/wp-content/uploads/2011/07/table-cell.png" alt='A Lily' />
+          <p>A lily in the gardens of The Vyne Country House</p>
+        </div>
+        <div class='image'>
+          <img src="http://www.vanseodesign.com/blog/wp-content/uploads/2011/07/table-cell.png" alt='A Fuchsia plant' />
+          <p>Fuchsia plant in my garden</p>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='image'>
+          <img src="http://www.vanseodesign.com/blog/wp-content/uploads/2011/07/table-cell.png" alt='A crazy looking Allium flower' />
+          <p>A crazy looking flower</p>
+        </div>
+        <div class='image'>
+          <img src="http://www.vanseodesign.com/blog/wp-content/uploads/2011/07/table-cell.png" alt='A Robin sitting on a fence' />
+          <p>This robin has been visiting our garden over the summer.He is very friendly and doesn’t seem to be too worried about sharing the garden with us.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
